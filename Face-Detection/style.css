@@ -1,0 +1,29 @@
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background:linear-gradient(60deg,black,#414141);
+      background-size:600%,100%;
+      animation: gradient 35s linear infinite;
+      animation-direction: alternate;
+    }
+      @keyframes gradient {
+      0% {background-position: 0%}
+      100% {background-position: 100%}
+    }
+
+    canvas {
+      position: absolute;
+    }
+    .box{
+        position: fixed;
+        top:0;
+        right: 15px;
+        color: #36FF4E;
+        font-family: 'montserrat',sans-serif;
+        font-size: large;
+    }
